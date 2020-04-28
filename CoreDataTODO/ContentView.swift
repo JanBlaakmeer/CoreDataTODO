@@ -51,7 +51,7 @@ struct ContentView: View {
                     }
                 }
             }
-            .navigationBarTitle(Text("My List"))
+            .navigationBarTitle(Text("My ToDO list"))
             .navigationBarItems(trailing: EditButton())
         }
     }
